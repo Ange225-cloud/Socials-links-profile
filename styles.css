@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body 
+{
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-color:  hsl(0, 0%, 8%);
+}
+
+.container
+{
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 20px;
+    margin: 390px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 50px;
+}
+
+.information h2
+{
+    color: hsl(75, 94%, 57%);
+}
+
+img 
+{
+    border-radius: 90px;
+}
+
+.Instagram
+{
+    border: 20px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border: 5px hsl(0, 0%, 20%) solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Twitter
+{
+    border: 20px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border: 5px hsl(0, 0%, 20%) solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.LinkedIn
+{
+    border: 20px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border: 5px hsl(0, 0%, 20%) solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Frontend
+{
+    border: 20px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border: 5px hsl(0, 0%, 20%) solid;
+    border-radius: 10px;   
+    margin-bottom: 10px;
+
+}
+
+.GitHub
+{
+    border: 20px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border: 5px hsl(0, 0%, 20%) solid;
+    border-radius: 10px;   
+    margin-bottom: 10px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.Instagram:hover 
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.Twitter:hover
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.LinkedIn:hover
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.Frontend:hover
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.GitHub:hover
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+@media screen and (max-width:425px)
+{
+    .container 
+    {
+        margin: 100px;
+    }  
+}
+
+@media screen and (max-width:1024px)
+{
+    .container 
+    {
+        margin: 100px;
+    }  
+}
+
